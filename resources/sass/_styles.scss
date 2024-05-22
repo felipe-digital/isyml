@@ -1,0 +1,60 @@
+body{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.whatsapp-button{
+    background-color: #25D366 !important;
+    color: white !important;
+    font-weight: bold !important;
+
+    &:hover{
+        background-color: #1ea54f !important;
+    }
+}
+
+.l12{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.borderdiv{
+    margin: 1rem;
+    padding: 0.75rem;
+    border: dashed 2px white;
+    color: white;
+    font-weight: bold;
+
+    .t1{
+        font-size: 24px;
+    }
+
+    .t2{
+
+    }
+}
+
+.rachelp{
+
+    .buttons{
+        padding-top: 40px;
+    }
+
+    .logo{
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+    }
+
+    .description{
+        color: white;
+        font-weight: 500;
+        padding-top: 2.5rem;
+    }
+
+    .list{
+        color: white;
+        text-align: left;
+    }
+}
