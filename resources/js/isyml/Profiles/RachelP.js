@@ -48,8 +48,7 @@ const RachelP = ({}) => {
 
                         <div className={'buttons'}>
                             <a className={'btn btn-block btn-md w-100 whatsapp-button'} href={'https://wa.link/xq8bq6'}>
-                                <i className="fab fa-whatsapp me-1"></i>Citas al WhatsApp
-                            </a>
+                                <i className="fab fa-whatsapp me-1"></i>Citas al WhatsApp</a>
                         </div>
                     </div>
                 </div>
