@@ -4,6 +4,21 @@ body{
     user-select: none; /* Standard syntax */
 }
 
+.ad{
+    text-align: center;
+    color: white;
+    background-color: #7D0096FF;
+
+    .button{
+        background-color: yellow;
+        font-weight: bold;
+
+        &:hover{
+            background-color: yellow;
+        }
+    }
+}
+
 .whatsapp-button{
     background-color: #25D366 !important;
     color: white !important;
@@ -33,6 +48,12 @@ body{
     .t2{
 
     }
+}
+
+.rachelp-background {
+    background: linear-gradient(300deg, #e0b0cd,#e50550,#eb76a3,#f1b4c4);
+    background-size: 240% 240%;
+    animation: gradient-animation-rachelp 24s ease infinite;
 }
 
 .rachelp{

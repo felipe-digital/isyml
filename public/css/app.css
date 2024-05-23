@@ -1,11 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
-.rachelp-background {
-  background: linear-gradient(300deg, #faf7f9, #e50550, #eb76a3, #f1b4c4);
-  background-size: 240% 240%;
-  animation: gradient-animation-rachelp 24s ease infinite;
-}
-
 @keyframes gradient-animation-rachelp {
   0% {
     background-position: 0% 50%;
@@ -21,6 +15,19 @@ body {
   -webkit-user-select: none; /* Safari */ /* IE 10 and IE 11 */
   -moz-user-select: none;
        user-select: none; /* Standard syntax */
+}
+
+.ad {
+  text-align: center;
+  color: white;
+  background-color: #7d0096;
+}
+.ad .button {
+  background-color: yellow;
+  font-weight: bold;
+}
+.ad .button:hover {
+  background-color: yellow;
 }
 
 .whatsapp-button {
@@ -47,6 +54,12 @@ body {
 .borderdiv .t1 {
   font-size: 24px;
 }
+.rachelp-background {
+  background: linear-gradient(300deg, #e0b0cd, #e50550, #eb76a3, #f1b4c4);
+  background-size: 240% 240%;
+  animation: gradient-animation-rachelp 24s ease infinite;
+}
+
 .rachelp .buttons {
   padding-top: 40px;
 }

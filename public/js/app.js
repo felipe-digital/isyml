@@ -5255,6 +5255,7 @@ var RachelP = function RachelP(_ref) {
     _useState2 = _slicedToArray(_useState, 2),
     windowSize = _useState2[0],
     setWindowSize = _useState2[1];
+  var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
     function handleWindowResize() {
       setWindowSize(_functions_General__WEBPACK_IMPORTED_MODULE_2__.getWindowSize);
@@ -5264,74 +5265,89 @@ var RachelP = function RachelP(_ref) {
       window.removeEventListener('resize', handleWindowResize);
     };
   }, []);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("section", {
-    className: 'rachelp-background',
-    style: {
-      minHeight: windowSize.innerHeight + 'px',
-      height: 'fit-content'
-    },
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-      className: 'container py-5',
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("section", {
+      className: 'rachelp-background',
+      style: {
+        minHeight: windowSize.innerHeight - 35 + 'px',
+        height: 'fit-content'
+      },
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-        className: 'row mx-0 justify-content-center',
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-          className: 'col-10 col-sm-9 col-md-8 col-lg-6 text-center rachelp',
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            src: _public_profiles_logos_rachel_p_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
-            className: 'logo'
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-            className: 'description',
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("u", {
-                className: 'font-weight-bold',
-                children: "Cosmet\xF3loga licenciada en Tampa"
-              }), ", con a\xF1os de experiencia en el cuidado y belleza de la piel. Cont\xE1ctame y date un tiempo para ser consentida y sentirte hermosa."]
-            })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: 'list',
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-              className: 'l12',
-              children: "Servicios personalizados:"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("ul", {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
-                children: "Tratamientos faciales personalizados"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
-                children: "Tratamientos corporales, radiofrecuencia, ondas rusas"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
-                children: "Maderoterapia"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
-                children: "Masajes"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
-                children: "Laceados, color, cepillado, planchado"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
-                children: "Depilaci\xF3n face and body"
+        className: 'container py-5',
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          className: 'row mx-0 justify-content-center',
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: 'col-10 col-sm-9 col-md-8 col-lg-6 text-center rachelp',
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+              src: _public_profiles_logos_rachel_p_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+              className: 'logo'
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              className: 'description',
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("u", {
+                  className: 'font-weight-bold',
+                  children: "Cosmet\xF3loga licenciada en Tampa"
+                }), ", con a\xF1os de experiencia en el cuidado y belleza de la piel. Cont\xE1ctame y date un tiempo para ser consentida y sentirte hermosa."]
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: 'list',
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                className: 'l12',
+                children: "Servicios personalizados:"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("ul", {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
+                  children: "Tratamientos faciales personalizados"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
+                  children: "Tratamientos corporales, radiofrecuencia, ondas rusas"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
+                  children: "Maderoterapia"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
+                  children: "Masajes"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
+                  children: "Laceados, color, cepillado, planchado"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
+                  children: "Depilaci\xF3n face and body"
+                })]
               })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              className: 'pt-3',
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                className: 'borderdiv',
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  className: 'm-0 t1',
+                  children: "Atenci\xF3n a domicilio"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  className: 'mb-0 mt-2 t2',
+                  children: "Voy a tu direcci\xF3n con todo mi equipo para consentirte como la reina que eres."
+                })]
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              className: 'buttons',
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("a", {
+                className: 'btn btn-block btn-md w-100 whatsapp-button',
+                href: 'https://wa.link/xq8bq6',
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                  className: "fab fa-whatsapp me-1"
+                }), "Citas al WhatsApp"]
+              })
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-            className: 'pt-3',
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-              className: 'borderdiv',
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: 'm-0 t1',
-                children: "Atenci\xF3n a domicilio"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: 'mb-0 mt-2 t2',
-                children: "Voy a tu direcci\xF3n con todo mi equipo para consentirte como la reina que eres."
-              })]
-            })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-            className: 'buttons',
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("a", {
-              className: 'btn btn-block btn-md w-100 whatsapp-button',
-              href: 'https://wa.link/xq8bq6',
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
-                className: "fab fa-whatsapp me-1"
-              }), "Citas al WhatsApp"]
-            })
-          })]
+          })
         })
       })
-    })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("section", {
+      className: 'ad',
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: 'py-1',
+        children: ["Do lo like it? ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("strong", {
+          children: "Build your own too!!!"
+        }), " \uD83D\uDC49 ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+          className: 'btn btn-block btn-sm button',
+          type: 'button',
+          href: 'https://wa.me/18134010513?text=Hi%20Phillip%21%20I%27m%20interested%20on%20create%20a%20*ISYML*%20profile',
+          children: "Here"
+        })]
+      })
+    })]
   });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RachelP);
