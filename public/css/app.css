@@ -17,19 +17,6 @@ body {
        user-select: none; /* Standard syntax */
 }
 
-.ad {
-  text-align: center;
-  color: white;
-  background-color: #7d0096;
-}
-.ad .button {
-  background-color: yellow;
-  font-weight: bold;
-}
-.ad .button:hover {
-  background-color: yellow;
-}
-
 .whatsapp-button {
   background-color: #25D366 !important;
   color: white !important;
@@ -76,6 +63,52 @@ body {
 .rachelp .list {
   color: white;
   text-align: left;
+}
+
+.floatingad {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.ad {
+  font-size: 12.5px;
+  text-align: center;
+  color: white;
+  background-color: #7d0096;
+}
+.ad .button {
+  font-size: 12.5px;
+  background-color: yellow;
+  font-weight: bold;
+}
+.ad .button:hover {
+  background-color: yellow;
+}
+
+.views-plugin {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: unset;
+  border-radius: 10px 10px 0 0;
+  margin-left: 1rem;
+  background-color: #00b337;
+  text-align: center;
+  box-shadow: unset;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 12.5px;
+}
+.views-plugin p {
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+}
+.views-plugin:hover, .views-plugin:link, .views-plugin:visited, .views-plugin:focus, .views-plugin:before, .views-plugin:after, .views-plugin:checked, .views-plugin:active {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: normal;
+  text-shadow: unset;
 }
 
 /*!

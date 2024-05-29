@@ -4,21 +4,6 @@ body{
     user-select: none; /* Standard syntax */
 }
 
-.ad{
-    text-align: center;
-    color: white;
-    background-color: #7D0096FF;
-
-    .button{
-        background-color: yellow;
-        font-weight: bold;
-
-        &:hover{
-            background-color: yellow;
-        }
-    }
-}
-
 .whatsapp-button{
     background-color: #25D366 !important;
     color: white !important;
@@ -77,5 +62,57 @@ body{
     .list{
         color: white;
         text-align: left;
+    }
+}
+
+.floatingad{
+    position: fixed;
+    bottom: 0 ;
+    width: 100%;
+}
+
+.ad{
+    font-size: 12.5px;
+    text-align: center;
+    color: white;
+    background-color: #7D0096FF;
+
+    .button{
+        font-size: 12.5px;
+        background-color: yellow;
+        font-weight: bold;
+
+        &:hover{
+            background-color: yellow;
+        }
+    }
+}
+
+.views-plugin{
+    width: fit-content;
+    height: unset;
+    border-radius: 10px 10px 0 0 ;
+    margin-left: 1rem;
+    background-color: #00b337;
+    text-align: center;
+    box-shadow: unset;
+    color:#FFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 12.5px;
+
+    p{
+        margin: 0 ;
+        padding: 0.25rem 0.5rem;
+    }
+
+    &:hover, &:link,
+    &:visited ,&:focus,
+    &:before, &:after,
+    &:checked, &:active{
+        color:#FFF;
+        text-decoration: none;
+        font-weight: normal;
+        text-shadow: unset;
     }
 }

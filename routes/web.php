@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\WebController::class, 'indexView'])->name('home');
 Route::get('/rachelp', [\App\Http\Controllers\WebController::class, 'viewRachelP']);
+Route::post('/ajax-get-views', [\App\Http\Controllers\WebController::class, 'ajaxGetViews']);

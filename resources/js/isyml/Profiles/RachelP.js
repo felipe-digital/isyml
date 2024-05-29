@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import ReactDOM from "react-dom";
 import {getWindowSize} from "../../functions/General";
 import logo from "../../../../public/profiles-logos/rachel-p.svg";
+import SiteView from "../Widgets/SiteView";
+import FloatingFooterAd from "../Widgets/FloatingFooterAd";
 
 const RachelP = ({}) => {
     const [windowSize, setWindowSize] = useState(getWindowSize);
@@ -20,7 +22,7 @@ const RachelP = ({}) => {
 
     return(
         <>
-            <section className={'rachelp-background'} style={{minHeight: ((windowSize.innerHeight - 35) + 'px'), height: 'fit-content'}}>
+            <section className={'rachelp-background'} style={{minHeight: (windowSize.innerHeight + 'px'), height: 'fit-content'}}>
                 <div className={'container py-5'}>
                     <div className={'row mx-0 justify-content-center'}>
                         <div className={'col-10 col-sm-9 col-md-8 col-lg-6 text-center rachelp'}>
@@ -56,9 +58,8 @@ const RachelP = ({}) => {
                     </div>
                 </div>
             </section>
-            <section className={'ad'}>
-                <div className={'py-1'}>Do lo like it? <strong>Build your own too!!!</strong> 👉 <a className={'btn btn-block btn-sm button'} type={'button'} href={'https://wa.me/18134010513?text=Hi%20Phillip%21%20I%27m%20interested%20on%20create%20a%20*ISYML*%20profile'}>Here</a></div>
-            </section>
+
+            <FloatingFooterAd pathName={'/rachelp'} />
         </>
     )
 };

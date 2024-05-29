@@ -18,3 +18,12 @@ export function getWindowSize() {
     const {innerWidth, innerHeight} = window;
     return {innerWidth, innerHeight};
 };
+
+export function ajaxGetViews(pathName) {
+
+    return axios.post('/ajax-get-views', {pathName} )
+        .then(res => {
+            let r = res.data;
+            return r;
+        });
+}
